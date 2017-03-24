@@ -1,3 +1,3 @@
-print ("Hello, World!")
-print ("Hello, Jardel!")
-
+nome = input("Nome:")
+print("Hello, " + nome)
+print("Hello, World")
