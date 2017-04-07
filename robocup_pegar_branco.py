@@ -35,8 +35,8 @@ def curva_esquerda(tempo, direcao, curva):
     m_direito.wait_while('running')
 
 def curva_direita(tempo, direcao, curva):
-    m_esquerdo.run_timed(time_sp=(tempo + curva), speed_sp=direcao , stop_action='brake')
-    m_direito.run_timed(time_sp=tempo, speed_sp=direcao , stop_action='brake')
+    m_esquerdo.run_timed(time_sp=tempo, speed_sp=direcao , stop_action='brake')
+    m_direito.run_timed(time_sp=(tempo + curva), speed_sp=direcao , stop_action='brake')
     m_esquerdo.wait_while('running')
     m_direito.wait_while('running')
 
