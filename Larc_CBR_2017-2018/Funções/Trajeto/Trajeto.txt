@@ -1,0 +1,3 @@
+Desenvolvimento da função, com o intuito de criar um algoritmo que mantenha o robô em cima da pista,
+com o alinhamento correto e correção de erros na trajetória mantendo o robô sempre no caminho correto,
+talvez seja necessário o uso do giroscópio para o desenvolvimento dessa função.

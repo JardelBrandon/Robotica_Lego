@@ -1,0 +1,2 @@
+Desenvolvimento da função, com o intuito de criar um algoritmo que identifique o círculo central da praça, 
+afim de soltar os bonecos corretamente, garantindo a pontuação pelo "resgate".

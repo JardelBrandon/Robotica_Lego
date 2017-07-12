@@ -1,0 +1,2 @@
+Desenvolvimento da função, com o intuito de criar um algoritmo que identifique os bonecos nas paradas, 
+quando identificados, deve-se ter uma rotina de movimentos para captura dos bonecos.

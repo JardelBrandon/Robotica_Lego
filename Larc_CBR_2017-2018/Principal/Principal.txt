@@ -1,0 +1,2 @@
+Desenvolvimento da função principal(main), deve-se reunir todas as funções criadas em perfeito sincronismo,
+para se obter o funcionamento pleno do robô na competição, usando a ideologia de dividir para conquistar.  

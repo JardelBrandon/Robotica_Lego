@@ -1,0 +1,2 @@
+Desenvolvimento da função, com o intuito de armazenar a direção correta a seguir em cada intersecção dependendo da cor,
+deve conter Inteligência Artificial para identificar as decisões erradas corrigir e armazenar a direção correta que cada cor representa.
