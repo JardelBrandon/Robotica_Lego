@@ -4,14 +4,18 @@ import ev3dev.ev3 as ev3
 from ev3dev.ev3 import *
 from time   import sleep
 
+#Definição dos motores:
 m_esquerdo = ev3.LargeMotor('outA')
 m_direito = ev3.LargeMotor('outB')
 m_garra = ev3.Motor('outC')
-cl_cima = ev3.ColorSensor('in1')
-cl_cima.mode='COL-COLOR'
-cl_baixo = ev3.ColorSensor('in2')
-cl_baixo.mode='COL-AMBIENT'
-tempo_voltar = 0
+m_garra = ev3.Motor('outD')
+
+#Definição dos sensores:
+color = ev3.ColorSensor()
+gyro = ev3.GyroSensor()
+ir_Esquerdo = InfraredSensor('in3')
+ir_Direito = InfraredSensor('in2')
+
 
 while cl_baixo.value() > 4:
     m_esquerdo.run_timed(time_sp=100, speed_sp=500, stop_action='brake')
